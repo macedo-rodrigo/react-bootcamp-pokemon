@@ -1,0 +1,11 @@
+.pokemons-page {
+    &__content {
+        text-align: center;
+    }
+    &__pokemon-list {
+        display: flex;
+        flex-wrap: wrap; // p saltar a la siguiente línea
+        justify-content: center;
+        max-width: 1250px;
+    }
+}

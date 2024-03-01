@@ -1,0 +1,35 @@
+.pokemon-card {
+    text-align: center;
+    &__img {
+        width: 150px;
+        height: 150px;
+        object-fit: contain; //para que la imagen se vea toda, contenida en en tamaño configurado arriba en width y height
+        object-position: bottom center; // donde la imagen estara "pegada"
+        margin: 0 60px;
+    }
+    &__number {
+        font-size: 10px;
+        line-height: 1;
+        margin: 0;
+    }
+    &__name {
+    font-size: 18px;
+        font-weight: 600;
+        line-height: 1;
+        text-transform: capitalize;
+        margin: 0;
+    }
+    &__data {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 12px;
+        margin: 10px 0;
+    }
+    &__attr {
+        font-size: 8px;
+        font-weight: 600;
+        margin: 0 5px;
+    }
+    &__more-info {}
+}
