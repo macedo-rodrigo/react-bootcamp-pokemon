@@ -10,6 +10,7 @@ html,
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
     color: $font-color-generic;
+    overflow-x: hidden;
 }
 
 button {
@@ -17,4 +18,8 @@ button {
     box-shadow: none;
     cursor: pointer;
     font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
 }
